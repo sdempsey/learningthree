@@ -1,0 +1,48 @@
+/*
+    Theme Name:     Nucleus
+    Theme URI:      http://vtldesign.com
+    Description:    A blank WordPress theme
+    Version:        1.0
+    Author:         Vital
+    Author URI:     http://vtldesign.com
+*/
+
+@import "base";
+
+/* --------------------------------------------------------------------------
+
+    TABLE OF CONTENTS
+
+    1. Normalize & Global
+    2. Layout
+  
+  
+  --------------------------------------------------------------------------*/
+
+/*
+    ========================================
+        ::Normalize & Global
+    ========================================
+*/
+
+@import "normalize";
+
+::selection {
+  color: $white;
+  background: $blue;
+  text-shadow: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+/*
+    ========================================
+        ::Layout
+    ========================================
+*/
